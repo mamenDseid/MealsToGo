@@ -14,14 +14,40 @@ import { Navigation } from "./src/infrastructure/navigation";
 
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
+/*
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "<fill in your own>",
-  authDomain: "<fill in your own>",
-  projectId: "<fill in your own>",
-  storageBucket: "<fill in your own>",
-  messagingSenderId: "<fill in your own>",
-  appId: "<fill in your own>",
+  apiKey: "AIzaSyCz6sb6tYBbDyKY63aaPd7RG6yss-_2J1c",
+  authDomain: "mealstogo-88089.firebaseapp.com",
+  projectId: "mealstogo-88089",
+  storageBucket: "mealstogo-88089.appspot.com",
+  messagingSenderId: "159902997203",
+  appId: "1:159902997203:web:179f40404419ea076bd226",
+  measurementId: "G-087T10489Y"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+*/
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCz6sb6tYBbDyKY63aaPd7RG6yss-_2J1c",
+  authDomain: "mealstogo-88089.firebaseapp.com",
+  projectId: "mealstogo-88089",
+  storageBucket: "mealstogo-88089.appspot.com",
+  messagingSenderId: "159902997203",
+  appId: "1:159902997203:web:179f40404419ea076bd226",
+  };
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
